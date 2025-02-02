@@ -5,11 +5,12 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #f9e3e3;
-    background-image: url('./background.jpg'); /* Ensure the image is in the same directory */
-    background-size: cover;
+    background-image: url('./background.jpg');
+    background-size: contain; /* Ensures the full image is visible without overflow */
     background-position: center;
     background-repeat: no-repeat;
 }
+
 
 .container {
     text-align: center;
