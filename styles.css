@@ -4,29 +4,31 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    
-  }
+    background-image: url('./background.jpg'); /* Ensure the image is in the same directory */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
   
-  .container {
+.container {
     text-align: center;
-    background: rgba(255, 255, 255, 0.8); /* Optional: Adds a semi-transparent white box for readability */
+    background: rgba(255, 255, 255, 0.8); /* Adds a semi-transparent white box for readability */
     padding: 20px;
     border-radius: 10px;
     max-width: 80%;
     overflow: hidden;
 }
 
-  
-  h1 {
+h1 {
     font-size: 2.5em;
     color: #d32f2f;
-  }
-  
-  .buttons {
+}
+
+.buttons {
     margin-top: 20px;
-  }
-  
-  .yes-button {
+}
+
+.yes-button {
     font-size: 1.5em;
     padding: 10px 20px;
     margin-right: 10px;
@@ -35,9 +37,9 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
-  
-  .no-button {
+}
+
+.no-button {
     font-size: 1.5em;
     padding: 10px 20px;
     background-color: #f44336;
@@ -45,12 +47,11 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
-  
-  .gif_container img {
+}
+
+.gif_container img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
     margin-top: 20px;
-  }
-background-image: url('./background.jpg'); /* If the image is in the same folder */
+}
