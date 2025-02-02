@@ -1,14 +1,14 @@
 const messages = [
-    "Are you sure?",
-    "Really sure??",
-    "Are you positive?",
-    "Pookie please...",
-    "Just think about it!",
-    "If you say no, I will be really sad...",
-    "I will be very sad...",
-    "I will be very very very sad...",
-    "Ok fine, I will stop asking...",
-    "Just kidding, say yes please! ❤️"
+    "Итгэлтэй байна уу?",
+    "Нээрээ юу??",
+    "Сонгосон сонголт нь зөв үү?",
+    "Үгүй ээ битгий...",
+    "Өшөө сайн бод!",
+    "Үгүй гэвэл би гуниглана шүү...",
+    "Тийм гэдгээ андуураагүй биз...",
+    "Худлаа маниараа тоглоол...",
+    "Заза бууж өглөө...",
+    "Тоглосымаа зүгээр зөв хариултаа сонгоо ❤️"
 ];
 
 let messageIndex = 0;
