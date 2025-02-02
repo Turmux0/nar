@@ -4,19 +4,12 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url('./background.jpg'); /* Ensure the image is in the same directory */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    
 }
   
 .container {
     text-align: center;
-    background: rgba(255, 255, 255, 0.8); /* Adds a semi-transparent white box for readability */
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 80%;
-    overflow: hidden;
+    
 }
 
 h1 {
