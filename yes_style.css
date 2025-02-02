@@ -4,6 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-color: #f9e3e3;
     background-image: url('./background.jpg'); /* Ensure the image is in the same directory */
     background-size: cover;
     background-position: center;
